@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3AE435E279F2D2B005C6FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE435D279F2D2B005C6FF2 /* AppDelegate.swift */; };
+		C3AE4360279F2D2B005C6FF2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C3AE435F279F2D2B005C6FF2 /* GameScene.sks */; };
+		C3AE4362279F2D2B005C6FF2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C3AE4361279F2D2B005C6FF2 /* Actions.sks */; };
+		C3AE4364279F2D2B005C6FF2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE4363279F2D2B005C6FF2 /* GameScene.swift */; };
+		C3AE4366279F2D2B005C6FF2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE4365279F2D2B005C6FF2 /* GameViewController.swift */; };
+		C3AE4369279F2D2B005C6FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3AE4367279F2D2B005C6FF2 /* Main.storyboard */; };
+		C3AE436B279F2D2D005C6FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3AE436A279F2D2D005C6FF2 /* Assets.xcassets */; };
+		C3AE436E279F2D2D005C6FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3AE436C279F2D2D005C6FF2 /* LaunchScreen.storyboard */; };
+		C3AE4378279F2D2D005C6FF2 /* iPongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE4377279F2D2D005C6FF2 /* iPongTests.swift */; };
+		C3AE4382279F2D2D005C6FF2 /* iPongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE4381279F2D2D005C6FF2 /* iPongUITests.swift */; };
+		C3AE4384279F2D2D005C6FF2 /* iPongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AE4383279F2D2D005C6FF2 /* iPongUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3AE4374279F2D2D005C6FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AE4352279F2D2B005C6FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3AE4359279F2D2B005C6FF2;
+			remoteInfo = iPong;
+		};
+		C3AE437E279F2D2D005C6FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AE4352279F2D2B005C6FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3AE4359279F2D2B005C6FF2;
+			remoteInfo = iPong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3AE435A279F2D2B005C6FF2 /* iPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AE435D279F2D2B005C6FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3AE435F279F2D2B005C6FF2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C3AE4361279F2D2B005C6FF2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C3AE4363279F2D2B005C6FF2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C3AE4365279F2D2B005C6FF2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C3AE4368279F2D2B005C6FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3AE436A279F2D2D005C6FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3AE436D279F2D2D005C6FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3AE4373279F2D2D005C6FF2 /* iPongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AE4377279F2D2D005C6FF2 /* iPongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPongTests.swift; sourceTree = "<group>"; };
+		C3AE437D279F2D2D005C6FF2 /* iPongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AE4381279F2D2D005C6FF2 /* iPongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPongUITests.swift; sourceTree = "<group>"; };
+		C3AE4383279F2D2D005C6FF2 /* iPongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPongUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3AE4357279F2D2B005C6FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AE4370279F2D2D005C6FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AE437A279F2D2D005C6FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3AE4351279F2D2B005C6FF2 = {
+			isa = PBXGroup;
+			children = (
+				C3AE435C279F2D2B005C6FF2 /* iPong */,
+				C3AE4376279F2D2D005C6FF2 /* iPongTests */,
+				C3AE4380279F2D2D005C6FF2 /* iPongUITests */,
+				C3AE435B279F2D2B005C6FF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3AE435B279F2D2B005C6FF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE435A279F2D2B005C6FF2 /* iPong.app */,
+				C3AE4373279F2D2D005C6FF2 /* iPongTests.xctest */,
+				C3AE437D279F2D2D005C6FF2 /* iPongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3AE435C279F2D2B005C6FF2 /* iPong */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE435D279F2D2B005C6FF2 /* AppDelegate.swift */,
+				C3AE435F279F2D2B005C6FF2 /* GameScene.sks */,
+				C3AE4361279F2D2B005C6FF2 /* Actions.sks */,
+				C3AE4363279F2D2B005C6FF2 /* GameScene.swift */,
+				C3AE4365279F2D2B005C6FF2 /* GameViewController.swift */,
+				C3AE4367279F2D2B005C6FF2 /* Main.storyboard */,
+				C3AE436A279F2D2D005C6FF2 /* Assets.xcassets */,
+				C3AE436C279F2D2D005C6FF2 /* LaunchScreen.storyboard */,
+			);
+			path = iPong;
+			sourceTree = "<group>";
+		};
+		C3AE4376279F2D2D005C6FF2 /* iPongTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE4377279F2D2D005C6FF2 /* iPongTests.swift */,
+			);
+			path = iPongTests;
+			sourceTree = "<group>";
+		};
+		C3AE4380279F2D2D005C6FF2 /* iPongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE4381279F2D2D005C6FF2 /* iPongUITests.swift */,
+				C3AE4383279F2D2D005C6FF2 /* iPongUITestsLaunchTests.swift */,
+			);
+			path = iPongUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3AE4359279F2D2B005C6FF2 /* iPong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AE4387279F2D2D005C6FF2 /* Build configuration list for PBXNativeTarget "iPong" */;
+			buildPhases = (
+				C3AE4356279F2D2B005C6FF2 /* Sources */,
+				C3AE4357279F2D2B005C6FF2 /* Frameworks */,
+				C3AE4358279F2D2B005C6FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPong;
+			productName = iPong;
+			productReference = C3AE435A279F2D2B005C6FF2 /* iPong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3AE4372279F2D2D005C6FF2 /* iPongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AE438A279F2D2D005C6FF2 /* Build configuration list for PBXNativeTarget "iPongTests" */;
+			buildPhases = (
+				C3AE436F279F2D2D005C6FF2 /* Sources */,
+				C3AE4370279F2D2D005C6FF2 /* Frameworks */,
+				C3AE4371279F2D2D005C6FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3AE4375279F2D2D005C6FF2 /* PBXTargetDependency */,
+			);
+			name = iPongTests;
+			productName = iPongTests;
+			productReference = C3AE4373279F2D2D005C6FF2 /* iPongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3AE437C279F2D2D005C6FF2 /* iPongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AE438D279F2D2D005C6FF2 /* Build configuration list for PBXNativeTarget "iPongUITests" */;
+			buildPhases = (
+				C3AE4379279F2D2D005C6FF2 /* Sources */,
+				C3AE437A279F2D2D005C6FF2 /* Frameworks */,
+				C3AE437B279F2D2D005C6FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3AE437F279F2D2D005C6FF2 /* PBXTargetDependency */,
+			);
+			name = iPongUITests;
+			productName = iPongUITests;
+			productReference = C3AE437D279F2D2D005C6FF2 /* iPongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3AE4352279F2D2B005C6FF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C3AE4359279F2D2B005C6FF2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C3AE4372279F2D2D005C6FF2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C3AE4359279F2D2B005C6FF2;
+					};
+					C3AE437C279F2D2D005C6FF2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C3AE4359279F2D2B005C6FF2;
+					};
+				};
+			};
+			buildConfigurationList = C3AE4355279F2D2B005C6FF2 /* Build configuration list for PBXProject "iPong" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3AE4351279F2D2B005C6FF2;
+			productRefGroup = C3AE435B279F2D2B005C6FF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3AE4359279F2D2B005C6FF2 /* iPong */,
+				C3AE4372279F2D2D005C6FF2 /* iPongTests */,
+				C3AE437C279F2D2D005C6FF2 /* iPongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3AE4358279F2D2B005C6FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AE4369279F2D2B005C6FF2 /* Main.storyboard in Resources */,
+				C3AE4360279F2D2B005C6FF2 /* GameScene.sks in Resources */,
+				C3AE436B279F2D2D005C6FF2 /* Assets.xcassets in Resources */,
+				C3AE436E279F2D2D005C6FF2 /* LaunchScreen.storyboard in Resources */,
+				C3AE4362279F2D2B005C6FF2 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AE4371279F2D2D005C6FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AE437B279F2D2D005C6FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3AE4356279F2D2B005C6FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AE4364279F2D2B005C6FF2 /* GameScene.swift in Sources */,
+				C3AE4366279F2D2B005C6FF2 /* GameViewController.swift in Sources */,
+				C3AE435E279F2D2B005C6FF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AE436F279F2D2D005C6FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AE4378279F2D2D005C6FF2 /* iPongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AE4379279F2D2D005C6FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AE4384279F2D2D005C6FF2 /* iPongUITestsLaunchTests.swift in Sources */,
+				C3AE4382279F2D2D005C6FF2 /* iPongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3AE4375279F2D2D005C6FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3AE4359279F2D2B005C6FF2 /* iPong */;
+			targetProxy = C3AE4374279F2D2D005C6FF2 /* PBXContainerItemProxy */;
+		};
+		C3AE437F279F2D2D005C6FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3AE4359279F2D2B005C6FF2 /* iPong */;
+			targetProxy = C3AE437E279F2D2D005C6FF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3AE4367279F2D2B005C6FF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3AE4368279F2D2B005C6FF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3AE436C279F2D2D005C6FF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3AE436D279F2D2D005C6FF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3AE4385279F2D2D005C6FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3AE4386279F2D2D005C6FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3AE4388279F2D2D005C6FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feller.iPong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3AE4389279F2D2D005C6FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feller.iPong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3AE438B279F2D2D005C6FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feller.iPongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPong.app/iPong";
+			};
+			name = Debug;
+		};
+		C3AE438C279F2D2D005C6FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feller.iPongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPong.app/iPong";
+			};
+			name = Release;
+		};
+		C3AE438E279F2D2D005C6FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feller.iPongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPong;
+			};
+			name = Debug;
+		};
+		C3AE438F279F2D2D005C6FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feller.iPongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3AE4355279F2D2B005C6FF2 /* Build configuration list for PBXProject "iPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AE4385279F2D2D005C6FF2 /* Debug */,
+				C3AE4386279F2D2D005C6FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3AE4387279F2D2D005C6FF2 /* Build configuration list for PBXNativeTarget "iPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AE4388279F2D2D005C6FF2 /* Debug */,
+				C3AE4389279F2D2D005C6FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3AE438A279F2D2D005C6FF2 /* Build configuration list for PBXNativeTarget "iPongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AE438B279F2D2D005C6FF2 /* Debug */,
+				C3AE438C279F2D2D005C6FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3AE438D279F2D2D005C6FF2 /* Build configuration list for PBXNativeTarget "iPongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AE438E279F2D2D005C6FF2 /* Debug */,
+				C3AE438F279F2D2D005C6FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3AE4352279F2D2B005C6FF2 /* Project object */;
+}
